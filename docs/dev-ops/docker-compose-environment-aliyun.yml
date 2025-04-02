@@ -1,0 +1,78 @@
+version: '3'
+services:
+  ollama:
+    image: crpi-y8yp6ghl2jg733x3.cn-hangzhou.personal.cr.aliyuncs.com/masterhesse/ollama:0.5.10
+    container_name: ollama
+    restart: unless-stopped
+    ports:
+      - "11434:11434"
+    networks:  # 新增网络配置（按需选择）
+      - my-network
+
+  redis:
+    image: crpi-y8yp6ghl2jg733x3.cn-hangzhou.personal.cr.aliyuncs.com/masterhesse/redis:6.2
+    container_name: redis
+    restart: always
+    hostname: redis
+    privileged: true
+    ports:
+      - 16379:6379
+    volumes:
+      - ./redis/redis.conf:/usr/local/etc/redis/redis.conf
+    command: redis-server /usr/local/etc/redis/redis.conf
+    networks:
+      - my-network
+    healthcheck:
+      test: [ "CMD", "redis-cli", "ping" ]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+
+  redis-admin:
+    image: crpi-y8yp6ghl2jg733x3.cn-hangzhou.personal.cr.aliyuncs.com/masterhesse/redis-commander:latest
+    container_name: redis-admin
+    hostname: redis-commander
+    restart: always
+    ports:
+      - 8081:8081
+    environment:
+      - REDIS_HOSTS=local:redis:6379
+      - HTTP_USER=admin
+      - HTTP_PASSWORD=admin
+      - LANG=C.UTF-8
+      - LANGUAGE=C.UTF-8
+      - LC_ALL=C.UTF-8
+    networks:
+      - my-network
+    depends_on:
+      redis:
+        condition: service_healthy
+
+  vector_db:
+    image: crpi-y8yp6ghl2jg733x3.cn-hangzhou.personal.cr.aliyuncs.com/masterhesse/pgvector:pg16
+    container_name: vector_db
+    restart: always
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=springai
+      - PGPASSWORD=postgres
+    volumes:
+      - ./pgvector/sql/init.sql:/docker-entrypoint-initdb.d/init.sql
+    logging:
+      options:
+        max-size: 10m
+        max-file: "3"
+    ports:
+      - '5432:5432'
+    healthcheck:
+      test: "pg_isready -U postgres -d springai"  # 修改数据库名匹配
+      interval: 2s
+      timeout: 20s
+      retries: 10
+    networks:
+      - my-network
+
+networks:
+  my-network:
+    driver: bridge
