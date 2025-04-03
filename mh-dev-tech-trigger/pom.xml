@@ -14,6 +14,18 @@
 
     <dependencies>
         <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.ai</groupId>
+            <artifactId>spring-ai-core</artifactId>
+        </dependency>
+        <dependency>
             <groupId>org.springframework.ai</groupId>
             <artifactId>spring-ai-bom</artifactId>
             <version>${spring-ai.version}</version>
@@ -46,6 +58,10 @@
             <groupId>org.eclipse.jgit</groupId>
             <artifactId>org.eclipse.jgit</artifactId>
             <version>5.13.0.202109080827-r</version>
+        </dependency>
+        <dependency>
+            <groupId>com.masterhesse</groupId>
+            <artifactId>mh-dev-tech-api</artifactId>
         </dependency>
     </dependencies>
 
