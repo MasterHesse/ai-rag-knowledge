@@ -5,21 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ee7c77e-6806-42b4-96e6-8950da0fd71a" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/dev-ops/nginx/html/ai-case-04.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/dev-ops/pgvector/sql/init.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mh-dev-tech-app/src/test/java/com/masterhesse/mh/dev/tech/test/RAGTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mh-dev-tech-app/src/test/resources/data/file.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/log/log_error.log" beforeDir="false" afterPath="$PROJECT_DIR$/data/log/log_error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/log/log_info.log" beforeDir="false" afterPath="$PROJECT_DIR$/data/log/log_info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/dev-ops/nginx/html/css/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/dev-ops/nginx/html/git.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/dev-ops/nginx/html/images/ai-rag-knowledge-6-01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/dev-ops/nginx/html/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/dev-ops/nginx/html/js/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/dev-ops/nginx/html/upload.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/dev-ops/nginx/html/第4节：ai-case-04.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/dev-ops/nginx/html/第7节：ai-case-01.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/dev-ops/nginx/html/第7节：ai-case-02.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/dev-ops/nginx/html/第7节：ai-case-03.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mh-dev-tech-app/src/main/java/com/masterhesse/mh/dev/tech/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/mh-dev-tech-app/src/main/java/com/masterhesse/mh/dev/tech/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mh-dev-tech-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mh-dev-tech-app/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mh-dev-tech-app/src/main/java/com/masterhesse/mh/dev/tech/config/OllamaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/mh-dev-tech-app/src/main/java/com/masterhesse/mh/dev/tech/config/OllamaConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mh-dev-tech-app/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mh-dev-tech-app/src/main/resources/application-dev.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +21,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -61,16 +61,19 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.RAGTest.chat.executor": "Run",
+    "JUnit.RAGTest.upload.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.Application.executor": "Run",
-    "git-widget-placeholder": "3stream-ui",
+    "git-widget-placeholder": "4-rag",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Work/WorkFiles/JavaWork/demo/chatbot_demo",
+    "last_opened_file_path": "D:/Work/Tools/GitHub/repository/ai-rag-knowledge/docs/dev-ops",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -86,7 +89,44 @@
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Work\Tools\GitHub\repository\ai-rag-knowledge\docs\dev-ops" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.RAGTest.chat">
+    <configuration name="RAGTest.chat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mh-dev-tech-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.masterhesse.mh.dev.tech.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.masterhesse.mh.dev.tech.test" />
+      <option name="MAIN_CLASS_NAME" value="com.masterhesse.mh.dev.tech.test.RAGTest" />
+      <option name="METHOD_NAME" value="chat" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RAGTest.upload" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mh-dev-tech-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.masterhesse.mh.dev.tech.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.masterhesse.mh.dev.tech.test" />
+      <option name="MAIN_CLASS_NAME" value="com.masterhesse.mh.dev.tech.test.RAGTest" />
+      <option name="METHOD_NAME" value="upload" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="mh-dev-tech-app" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.masterhesse.mh.dev.tech.Application" />
@@ -102,6 +142,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RAGTest.chat" />
+        <item itemvalue="JUnit.RAGTest.upload" />
         <item itemvalue="Spring Boot.Application" />
       </list>
     </recent_temporary>
@@ -124,7 +166,9 @@
       <updated>1743691048688</updated>
       <workItem from="1743691050648" duration="35000" />
       <workItem from="1743731660684" duration="1000" />
-      <workItem from="1743743678023" duration="1634000" />
+      <workItem from="1743743678023" duration="4437000" />
+      <workItem from="1743754736617" duration="3188000" />
+      <workItem from="1743758553798" duration="602000" />
     </task>
     <servers />
   </component>
