@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ee7c77e-6806-42b4-96e6-8950da0fd71a" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/dev-ops/pgvector/sql/init.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mh-dev-tech-app/src/test/java/com/masterhesse/mh/dev/tech/test/RAGTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mh-dev-tech-app/src/test/resources/data/file.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mh-dev-tech-api/src/main/java/com/masterhesse/mh/dev/tech/api/IRAGService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mh-dev-tech-api/src/main/java/com/masterhesse/mh/dev/tech/api/response/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mh-dev-tech-trigger/src/main/java/com/masterhesse/mh/dev/tech/trigger/http/RAGController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mh-dev-tech-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mh-dev-tech-app/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mh-dev-tech-app/src/main/java/com/masterhesse/mh/dev/tech/config/OllamaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/mh-dev-tech-app/src/main/java/com/masterhesse/mh/dev/tech/config/OllamaConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mh-dev-tech-app/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mh-dev-tech-app/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mh-dev-tech-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mh-dev-tech-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mh-dev-tech-trigger/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mh-dev-tech-trigger/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +23,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -71,7 +70,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.Application.executor": "Run",
-    "git-widget-placeholder": "4-rag",
+    "git-widget-placeholder": "5-rag-api",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Work/Tools/GitHub/repository/ai-rag-knowledge/docs/dev-ops",
     "node.js.detected.package.eslint": "true",
@@ -168,7 +167,8 @@
       <workItem from="1743731660684" duration="1000" />
       <workItem from="1743743678023" duration="4437000" />
       <workItem from="1743754736617" duration="3188000" />
-      <workItem from="1743758553798" duration="602000" />
+      <workItem from="1743758553798" duration="860000" />
+      <workItem from="1743764535577" duration="1670000" />
     </task>
     <servers />
   </component>
