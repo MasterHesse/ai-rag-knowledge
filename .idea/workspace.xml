@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ee7c77e-6806-42b4-96e6-8950da0fd71a" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/mh-dev-tech-api/src/main/java/com/masterhesse/mh/dev/tech/api/IRAGService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mh-dev-tech-api/src/main/java/com/masterhesse/mh/dev/tech/api/response/Response.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mh-dev-tech-trigger/src/main/java/com/masterhesse/mh/dev/tech/trigger/http/RAGController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/dev-ops/nginx/html/ai-case-06.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mh-dev-tech-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mh-dev-tech-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mh-dev-tech-trigger/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mh-dev-tech-trigger/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/log/log_error.log" beforeDir="false" afterPath="$PROJECT_DIR$/data/log/log_error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/log/log_info.log" beforeDir="false" afterPath="$PROJECT_DIR$/data/log/log_info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/dev-ops/nginx/html/ai-case-04.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/dev-ops/nginx/html/ai-case-04.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mh-dev-tech-app/src/main/java/com/masterhesse/mh/dev/tech/config/RedisClientConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/mh-dev-tech-app/src/main/java/com/masterhesse/mh/dev/tech/config/RedisClientConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mh-dev-tech-app/src/main/java/com/masterhesse/mh/dev/tech/config/RedisClientConfigProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/mh-dev-tech-app/src/main/java/com/masterhesse/mh/dev/tech/config/RedisClientConfigProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mh-dev-tech-app/src/main/java/com/masterhesse/mh/dev/tech/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/mh-dev-tech-app/src/main/java/com/masterhesse/mh/dev/tech/package-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +72,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.Application.executor": "Run",
-    "git-widget-placeholder": "5-rag-api",
+    "git-widget-placeholder": "6-stream-rag-ui",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Work/Tools/GitHub/repository/ai-rag-knowledge/docs/dev-ops",
     "node.js.detected.package.eslint": "true",
@@ -92,8 +94,11 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Work\Tools\GitHub\repository\ai-rag-knowledge\docs\dev-ops" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Work\Tools\GitHub\repository\ai-rag-knowledge\docs\dev-ops\nginx\html\" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.RAGTest.chat">
+  <component name="RunManager" selected="Spring Boot.Application">
     <configuration name="RAGTest.chat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mh-dev-tech-app" />
       <extension name="coverage">
@@ -141,9 +146,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Application" />
         <item itemvalue="JUnit.RAGTest.chat" />
         <item itemvalue="JUnit.RAGTest.upload" />
-        <item itemvalue="Spring Boot.Application" />
       </list>
     </recent_temporary>
   </component>
@@ -169,6 +174,7 @@
       <workItem from="1743754736617" duration="3188000" />
       <workItem from="1743758553798" duration="860000" />
       <workItem from="1743764535577" duration="1670000" />
+      <workItem from="1743769887323" duration="1069000" />
     </task>
     <servers />
   </component>
@@ -180,7 +186,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="6-stream-rag-ui" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>

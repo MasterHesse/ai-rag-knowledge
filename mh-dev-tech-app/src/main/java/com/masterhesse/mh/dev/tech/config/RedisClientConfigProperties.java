@@ -1,4 +1,4 @@
-package com.masterhesse.mh.dev.tech.app.config;
+package com.masterhesse.mh.dev.tech.config;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

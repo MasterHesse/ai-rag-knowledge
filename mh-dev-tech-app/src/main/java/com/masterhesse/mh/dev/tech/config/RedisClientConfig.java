@@ -1,4 +1,4 @@
-package com.masterhesse.mh.dev.tech.app.config;
+package com.masterhesse.mh.dev.tech.config;
 
 import org.redisson.Redisson;
 import org.redisson.api.RedissonClient;

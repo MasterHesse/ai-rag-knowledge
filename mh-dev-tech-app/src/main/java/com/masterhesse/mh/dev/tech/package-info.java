@@ -1,1 +1,1 @@
-package com.masterhesse.mh.dev.tech.app;
+package com.masterhesse.mh.dev.tech;
