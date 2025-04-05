@@ -5,14 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ee7c77e-6806-42b4-96e6-8950da0fd71a" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/dev-ops/nginx/html/ai-case-06.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mh-dev-tech-app/src/test/java/com/masterhesse/mh/dev/tech/test/JGitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/630aa30b-8658-44ce-a762-e83320423389.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/630aa30b-8658-44ce-a762-e83320423389.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/630aa30b-8658-44ce-a762-e83320423389/storage_v2/_src_/database/ai-rag-knowledge.JNw2XQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/630aa30b-8658-44ce-a762-e83320423389/storage_v2/_src_/database/ai-rag-knowledge.JNw2XQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/log/log_error.log" beforeDir="false" afterPath="$PROJECT_DIR$/data/log/log_error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/log/log_info.log" beforeDir="false" afterPath="$PROJECT_DIR$/data/log/log_info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/dev-ops/nginx/html/ai-case-04.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/dev-ops/nginx/html/ai-case-04.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mh-dev-tech-app/src/main/java/com/masterhesse/mh/dev/tech/config/RedisClientConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/mh-dev-tech-app/src/main/java/com/masterhesse/mh/dev/tech/config/RedisClientConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mh-dev-tech-app/src/main/java/com/masterhesse/mh/dev/tech/config/RedisClientConfigProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/mh-dev-tech-app/src/main/java/com/masterhesse/mh/dev/tech/config/RedisClientConfigProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mh-dev-tech-app/src/main/java/com/masterhesse/mh/dev/tech/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/mh-dev-tech-app/src/main/java/com/masterhesse/mh/dev/tech/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/dev-ops/docker-compose-environment-aliyun.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/dev-ops/docker-compose-environment-aliyun.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/dev-ops/nginx/html/ai-case-04.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/dev-ops/nginx/html/4-Simple-UI.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/dev-ops/nginx/html/ai-case-06.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/dev-ops/nginx/html/6-Chat-UI.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mh-dev-tech-api/src/main/java/com/masterhesse/mh/dev/tech/api/IRAGService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mh-dev-tech-api/src/main/java/com/masterhesse/mh/dev/tech/api/IRAGService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mh-dev-tech-app/data/log/log_error.log" beforeDir="false" afterPath="$PROJECT_DIR$/mh-dev-tech-app/data/log/log_error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mh-dev-tech-app/data/log/log_info.log" beforeDir="false" afterPath="$PROJECT_DIR$/mh-dev-tech-app/data/log/log_info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mh-dev-tech-app/src/test/java/com/masterhesse/mh/dev/tech/test/RAGTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mh-dev-tech-app/src/test/java/com/masterhesse/mh/dev/tech/test/RAGTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mh-dev-tech-app/src/test/resources/data/file.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mh-dev-tech-trigger/src/main/java/com/masterhesse/mh/dev/tech/trigger/http/RAGController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mh-dev-tech-trigger/src/main/java/com/masterhesse/mh/dev/tech/trigger/http/RAGController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +44,7 @@
         <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
+    <option name="RECENT_COMMON_BRANCH" value="main" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -62,6 +71,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.JGitTest.test.executor": "Debug",
+    "JUnit.JGitTest.test_file.executor": "Run",
     "JUnit.RAGTest.chat.executor": "Run",
     "JUnit.RAGTest.upload.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
@@ -72,9 +83,9 @@
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.Application.executor": "Run",
-    "git-widget-placeholder": "6-stream-rag-ui",
+    "git-widget-placeholder": "7-rag-git",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Work/Tools/GitHub/repository/ai-rag-knowledge/docs/dev-ops",
+    "last_opened_file_path": "D:/Work/Tools/GitHub/repository/ai-rag-knowledge/docs/dev-ops/nginx/html",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -92,6 +103,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Work\Tools\GitHub\repository\ai-rag-knowledge\docs\dev-ops\nginx\html" />
       <recent name="D:\Work\Tools\GitHub\repository\ai-rag-knowledge\docs\dev-ops" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -99,6 +111,38 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.Application">
+    <configuration name="JGitTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mh-dev-tech-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.masterhesse.mh.dev.tech.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.masterhesse.mh.dev.tech.test" />
+      <option name="MAIN_CLASS_NAME" value="com.masterhesse.mh.dev.tech.test.JGitTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JGitTest.test_file" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mh-dev-tech-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.masterhesse.mh.dev.tech.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.masterhesse.mh.dev.tech.test" />
+      <option name="MAIN_CLASS_NAME" value="com.masterhesse.mh.dev.tech.test.JGitTest" />
+      <option name="METHOD_NAME" value="test_file" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RAGTest.chat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mh-dev-tech-app" />
       <extension name="coverage">
@@ -146,6 +190,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JGitTest.test_file" />
+        <item itemvalue="JUnit.JGitTest.test" />
         <item itemvalue="Spring Boot.Application" />
         <item itemvalue="JUnit.RAGTest.chat" />
         <item itemvalue="JUnit.RAGTest.upload" />
@@ -175,6 +221,10 @@
       <workItem from="1743758553798" duration="860000" />
       <workItem from="1743764535577" duration="1670000" />
       <workItem from="1743769887323" duration="1069000" />
+      <workItem from="1743771179121" duration="30000" />
+      <workItem from="1743817499868" duration="4000" />
+      <workItem from="1743821757209" duration="2000" />
+      <workItem from="1743834457946" duration="5844000" />
     </task>
     <servers />
   </component>
@@ -192,7 +242,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="6-stream-rag-ui" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>

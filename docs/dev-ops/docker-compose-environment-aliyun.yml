@@ -55,7 +55,7 @@ services:
     environment:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
-      - POSTGRES_DB=springai
+      - POSTGRES_DB=ai-rag-knowledge
       - PGPASSWORD=postgres
     volumes:
       - ./pgvector/sql/init.sql:/docker-entrypoint-initdb.d/init.sql
@@ -66,7 +66,7 @@ services:
     ports:
       - '5432:5432'
     healthcheck:
-      test: "pg_isready -U postgres -d springai"  # 修改数据库名匹配
+      test: "pg_isready -U postgres -d ai-rag-knowledge"  # 修改数据库名匹配
       interval: 2s
       timeout: 20s
       retries: 10

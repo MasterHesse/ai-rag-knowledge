@@ -45,7 +45,7 @@ public class RAGTest {
 
     @Test
     public void upload(){
-        TikaDocumentReader reader = new TikaDocumentReader("./data/file.md");
+        TikaDocumentReader reader = new TikaDocumentReader("./data/file.txt");
 
         List<Document> documents = reader.get();
         List<Document> documentSplitterList = tokenTextSplitter.apply(documents);
