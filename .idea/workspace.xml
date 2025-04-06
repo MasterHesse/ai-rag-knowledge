@@ -4,7 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ee7c77e-6806-42b4-96e6-8950da0fd71a" name="更改" comment="" />
+    <list default="true" id="9ee7c77e-6806-42b4-96e6-8950da0fd71a" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/docs/dev-ops/nginx/html/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/dev-ops/nginx/html/git.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/dev-ops/nginx/html/images/ai-rag-knowledge-6-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/dev-ops/nginx/html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/dev-ops/nginx/html/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/dev-ops/nginx/html/upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mh-dev-tech-trigger/src/main/java/com/masterhesse/mh/dev/tech/trigger/http/OpenAiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/log/log_error.log" beforeDir="false" afterPath="$PROJECT_DIR$/data/log/log_error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/log/log_info.log" beforeDir="false" afterPath="$PROJECT_DIR$/data/log/log_info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mh-dev-tech-api/src/main/java/com/masterhesse/mh/dev/tech/api/IAiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mh-dev-tech-api/src/main/java/com/masterhesse/mh/dev/tech/api/IAiService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mh-dev-tech-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mh-dev-tech-app/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mh-dev-tech-app/src/main/java/com/masterhesse/mh/dev/tech/config/OllamaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/mh-dev-tech-app/src/main/java/com/masterhesse/mh/dev/tech/config/OllamaConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mh-dev-tech-app/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mh-dev-tech-app/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mh-dev-tech-app/src/main/resources/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mh-dev-tech-app/src/main/resources/application-prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mh-dev-tech-trigger/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mh-dev-tech-trigger/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mh-dev-tech-trigger/src/main/java/com/masterhesse/mh/dev/tech/trigger/http/OllamaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mh-dev-tech-trigger/src/main/java/com/masterhesse/mh/dev/tech/trigger/http/OllamaController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,35 +71,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JUnit.JGitTest.test.executor&quot;: &quot;Debug&quot;,
-    &quot;JUnit.JGitTest.test_file.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.RAGTest.chat.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.RAGTest.upload.executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Spring Boot.Application.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Work/Tools/GitHub/repository/ai-rag-knowledge/docs/dev-ops/nginx/html&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;项目&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reactor&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.JGitTest.test.executor": "Debug",
+    "JUnit.JGitTest.test_file.executor": "Run",
+    "JUnit.RAGTest.chat.executor": "Run",
+    "JUnit.RAGTest.upload.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.Application.executor": "Run",
+    "git-widget-placeholder": "8-openai-api-ui",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Work/Tools/GitHub/repository/ai-rag-knowledge/docs/dev-ops/nginx/html",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "项目",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.runner",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -210,6 +228,9 @@
       <workItem from="1743821757209" duration="2000" />
       <workItem from="1743834457946" duration="5844000" />
       <workItem from="1743840422336" duration="214000" />
+      <workItem from="1743845911130" duration="3600000" />
+      <workItem from="1743855182629" duration="3104000" />
+      <workItem from="1743926254680" duration="1006000" />
     </task>
     <servers />
   </component>

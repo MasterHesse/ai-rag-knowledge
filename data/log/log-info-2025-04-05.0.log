@@ -1,3 +1,26 @@
+25-04-05.14:30:44.070 [main            ] INFO  Application            - Starting Application using Java 17.0.14 with PID 1996 (D:\Work\Tools\GitHub\repository\ai-rag-knowledge\mh-dev-tech-app\target\classes started by 13168 in D:\Work\Tools\GitHub\repository\ai-rag-knowledge)
+25-04-05.14:30:44.073 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-04-05.14:30:44.722 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-05.14:30:44.724 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-05.14:30:44.751 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+25-04-05.14:30:45.423 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port 8090 (http)
+25-04-05.14:30:45.439 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8090"]
+25-04-05.14:30:45.441 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-04-05.14:30:45.441 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/10.1.19]
+25-04-05.14:30:45.517 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-04-05.14:30:45.517 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1402 ms
+25-04-05.14:30:45.961 [main            ] INFO  HikariDataSource       - HikariCP - Starting...
+25-04-05.14:30:46.500 [main            ] INFO  HikariPool             - HikariCP - Added connection org.postgresql.jdbc.PgConnection@541eabb8
+25-04-05.14:30:46.501 [main            ] INFO  HikariDataSource       - HikariCP - Start completed.
+25-04-05.14:30:51.099 [main            ] INFO  Version                - Redisson 3.44.0
+25-04-05.14:30:51.450 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 117.72.53.2/117.72.53.2:16379
+25-04-05.14:30:51.720 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 117.72.53.2/117.72.53.2:16379
+25-04-05.14:30:52.205 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8090"]
+25-04-05.14:30:52.214 [main            ] INFO  TomcatWebServer        - Tomcat started on port 8090 (http) with context path ''
+25-04-05.14:30:52.220 [main            ] INFO  Application            - Started Application in 8.735 seconds (process running for 9.441)
+25-04-05.14:32:35.398 [http-nio-8090-exec-1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25-04-05.14:32:35.398 [http-nio-8090-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+25-04-05.14:32:35.398 [http-nio-8090-exec-1] INFO  DispatcherServlet      - Completed initialization in 0 ms
 25-04-05.14:32:35.447 [http-nio-8090-exec-1] ERROR [dispatcherServlet]    - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.IllegalArgumentException: Name for argument of type [java.lang.String] not specified, and parameter name information not available via reflection. Ensure that the compiler uses the '-parameters' flag.] with root cause
 java.lang.IllegalArgumentException: Name for argument of type [java.lang.String] not specified, and parameter name information not available via reflection. Ensure that the compiler uses the '-parameters' flag.
 	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.updateNamedValueInfo(AbstractNamedValueMethodArgumentResolver.java:185)
@@ -190,6 +213,20 @@ Original Stack Trace:
 		at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
 		at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
 		at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+25-04-05.14:33:08.120 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown initiated...
+25-04-05.14:33:08.120 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown completed.
+25-04-05.14:33:51.437 [main            ] INFO  Application            - Starting Application using Java 17.0.14 with PID 16152 (D:\Work\Tools\GitHub\repository\ai-rag-knowledge\mh-dev-tech-app\target\classes started by 13168 in D:\Work\Tools\GitHub\repository\ai-rag-knowledge)
+25-04-05.14:33:51.437 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-04-05.14:33:51.990 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-05.14:33:51.990 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-05.14:33:52.021 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+25-04-05.14:33:52.526 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port 8090 (http)
+25-04-05.14:33:52.536 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8090"]
+25-04-05.14:33:52.536 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-04-05.14:33:52.536 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/10.1.19]
+25-04-05.14:33:52.608 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-04-05.14:33:52.608 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1123 ms
+25-04-05.14:33:52.955 [main            ] INFO  HikariDataSource       - HikariCP - Starting...
 25-04-05.14:34:04.005 [main            ] ERROR HikariPool             - HikariCP - Exception during pool initialization.
 org.postgresql.util.PSQLException: 尝试连线已失败。
 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:354)
@@ -253,6 +290,10 @@ Caused by: java.net.SocketTimeoutException: Connect timed out
 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:258)
 	... 49 common frames omitted
 25-04-05.14:34:04.007 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'RAGController': Injection of resource dependencies failed
+25-04-05.14:34:04.010 [main            ] INFO  StandardService        - Stopping service [Tomcat]
+25-04-05.14:34:04.017 [main            ] INFO  ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
 25-04-05.14:34:04.037 [main            ] ERROR SpringApplication      - Application run failed
 org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'RAGController': Injection of resource dependencies failed
 	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:369)
@@ -324,6 +365,18 @@ Caused by: java.net.SocketTimeoutException: Connect timed out
 	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:132)
 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:258)
 	... 49 common frames omitted
+25-04-05.14:34:13.496 [main            ] INFO  Application            - Starting Application using Java 17.0.14 with PID 18076 (D:\Work\Tools\GitHub\repository\ai-rag-knowledge\mh-dev-tech-app\target\classes started by 13168 in D:\Work\Tools\GitHub\repository\ai-rag-knowledge)
+25-04-05.14:34:13.498 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-04-05.14:34:14.017 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-05.14:34:14.019 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-05.14:34:14.047 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+25-04-05.14:34:14.558 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port 8090 (http)
+25-04-05.14:34:14.566 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8090"]
+25-04-05.14:34:14.568 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-04-05.14:34:14.568 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/10.1.19]
+25-04-05.14:34:14.635 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-04-05.14:34:14.636 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1104 ms
+25-04-05.14:34:14.976 [main            ] INFO  HikariDataSource       - HikariCP - Starting...
 25-04-05.14:34:18.173 [main            ] ERROR HikariPool             - HikariCP - Exception during pool initialization.
 org.postgresql.util.PSQLException: Connection to 117.72.53.2:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:342)
@@ -389,6 +442,10 @@ Caused by: java.net.ConnectException: Connection refused: getsockopt
 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:258)
 	... 49 common frames omitted
 25-04-05.14:34:18.175 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'RAGController': Injection of resource dependencies failed
+25-04-05.14:34:18.177 [main            ] INFO  StandardService        - Stopping service [Tomcat]
+25-04-05.14:34:18.186 [main            ] INFO  ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
 25-04-05.14:34:18.198 [main            ] ERROR SpringApplication      - Application run failed
 org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'RAGController': Injection of resource dependencies failed
 	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:369)
@@ -462,6 +519,29 @@ Caused by: java.net.ConnectException: Connection refused: getsockopt
 	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:132)
 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:258)
 	... 49 common frames omitted
+25-04-05.14:34:23.247 [main            ] INFO  Application            - Starting Application using Java 17.0.14 with PID 3312 (D:\Work\Tools\GitHub\repository\ai-rag-knowledge\mh-dev-tech-app\target\classes started by 13168 in D:\Work\Tools\GitHub\repository\ai-rag-knowledge)
+25-04-05.14:34:23.248 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-04-05.14:34:23.796 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-05.14:34:23.798 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-05.14:34:23.824 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+25-04-05.14:34:24.342 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port 8090 (http)
+25-04-05.14:34:24.349 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8090"]
+25-04-05.14:34:24.351 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-04-05.14:34:24.351 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/10.1.19]
+25-04-05.14:34:24.429 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-04-05.14:34:24.429 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1142 ms
+25-04-05.14:34:24.766 [main            ] INFO  HikariDataSource       - HikariCP - Starting...
+25-04-05.14:34:25.296 [main            ] INFO  HikariPool             - HikariCP - Added connection org.postgresql.jdbc.PgConnection@171198f2
+25-04-05.14:34:25.298 [main            ] INFO  HikariDataSource       - HikariCP - Start completed.
+25-04-05.14:34:28.980 [main            ] INFO  Version                - Redisson 3.44.0
+25-04-05.14:34:29.243 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 117.72.53.2/117.72.53.2:16379
+25-04-05.14:34:29.519 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 117.72.53.2/117.72.53.2:16379
+25-04-05.14:34:29.942 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8090"]
+25-04-05.14:34:29.949 [main            ] INFO  TomcatWebServer        - Tomcat started on port 8090 (http) with context path ''
+25-04-05.14:34:29.955 [main            ] INFO  Application            - Started Application in 7.199 seconds (process running for 7.746)
+25-04-05.14:35:01.208 [http-nio-8090-exec-1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25-04-05.14:35:01.208 [http-nio-8090-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+25-04-05.14:35:01.208 [http-nio-8090-exec-1] INFO  DispatcherServlet      - Completed initialization in 0 ms
 25-04-05.14:35:34.721 [http-nio-8090-exec-10] ERROR [dispatcherServlet]    - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.IllegalArgumentException: Name for argument of type [java.lang.String] not specified, and parameter name information not available via reflection. Ensure that the compiler uses the '-parameters' flag.] with root cause
 java.lang.IllegalArgumentException: Name for argument of type [java.lang.String] not specified, and parameter name information not available via reflection. Ensure that the compiler uses the '-parameters' flag.
 	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.updateNamedValueInfo(AbstractNamedValueMethodArgumentResolver.java:185)
@@ -566,6 +646,54 @@ java.lang.IllegalArgumentException: Name for argument of type [java.lang.String]
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
 	at java.base/java.lang.Thread.run(Thread.java:840)
+25-04-05.14:40:44.118 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown initiated...
+25-04-05.14:40:44.120 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown completed.
+25-04-05.14:40:48.566 [main            ] INFO  Application            - Starting Application using Java 17.0.14 with PID 2928 (D:\Work\Tools\GitHub\repository\ai-rag-knowledge\mh-dev-tech-app\target\classes started by 13168 in D:\Work\Tools\GitHub\repository\ai-rag-knowledge)
+25-04-05.14:40:48.568 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-04-05.14:40:49.103 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-05.14:40:49.105 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-05.14:40:49.132 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+25-04-05.14:40:49.654 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port 8090 (http)
+25-04-05.14:40:49.661 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8090"]
+25-04-05.14:40:49.663 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-04-05.14:40:49.663 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/10.1.19]
+25-04-05.14:40:49.731 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-04-05.14:40:49.732 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1118 ms
+25-04-05.14:40:50.070 [main            ] INFO  HikariDataSource       - HikariCP - Starting...
+25-04-05.14:40:50.475 [main            ] INFO  HikariPool             - HikariCP - Added connection org.postgresql.jdbc.PgConnection@f5c707b
+25-04-05.14:40:50.477 [main            ] INFO  HikariDataSource       - HikariCP - Start completed.
+25-04-05.14:40:53.869 [main            ] INFO  Version                - Redisson 3.44.0
+25-04-05.14:40:54.148 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 117.72.53.2/117.72.53.2:16379
+25-04-05.14:40:54.417 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 117.72.53.2/117.72.53.2:16379
+25-04-05.14:40:54.853 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8090"]
+25-04-05.14:40:54.860 [main            ] INFO  TomcatWebServer        - Tomcat started on port 8090 (http) with context path ''
+25-04-05.14:40:54.866 [main            ] INFO  Application            - Started Application in 6.812 seconds (process running for 7.345)
+25-04-05.14:41:03.100 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown initiated...
+25-04-05.14:41:03.102 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown completed.
+25-04-05.14:41:08.360 [main            ] INFO  Application            - Starting Application using Java 17.0.14 with PID 24540 (D:\Work\Tools\GitHub\repository\ai-rag-knowledge\mh-dev-tech-app\target\classes started by 13168 in D:\Work\Tools\GitHub\repository\ai-rag-knowledge)
+25-04-05.14:41:08.361 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-04-05.14:41:08.893 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-05.14:41:08.895 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-05.14:41:08.921 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+25-04-05.14:41:09.476 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port 8090 (http)
+25-04-05.14:41:09.485 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8090"]
+25-04-05.14:41:09.486 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-04-05.14:41:09.486 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/10.1.19]
+25-04-05.14:41:09.560 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-04-05.14:41:09.560 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1168 ms
+25-04-05.14:41:09.922 [main            ] INFO  HikariDataSource       - HikariCP - Starting...
+25-04-05.14:41:10.330 [main            ] INFO  HikariPool             - HikariCP - Added connection org.postgresql.jdbc.PgConnection@6045772c
+25-04-05.14:41:10.331 [main            ] INFO  HikariDataSource       - HikariCP - Start completed.
+25-04-05.14:41:10.921 [main            ] INFO  Version                - Redisson 3.44.0
+25-04-05.14:41:11.214 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 117.72.53.2/117.72.53.2:16379
+25-04-05.14:41:11.487 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 117.72.53.2/117.72.53.2:16379
+25-04-05.14:41:11.970 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8090"]
+25-04-05.14:41:11.978 [main            ] INFO  TomcatWebServer        - Tomcat started on port 8090 (http) with context path ''
+25-04-05.14:41:11.984 [main            ] INFO  Application            - Started Application in 4.137 seconds (process running for 5.138)
+25-04-05.14:41:27.764 [http-nio-8090-exec-2] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25-04-05.14:41:27.764 [http-nio-8090-exec-2] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+25-04-05.14:41:27.764 [http-nio-8090-exec-2] INFO  DispatcherServlet      - Completed initialization in 0 ms
+25-04-05.14:44:40.796 [http-nio-8090-exec-6] INFO  RAGController          - 上传知识库开始test01
 25-04-05.14:44:41.408 [http-nio-8090-exec-6] WARN  PoolBase               - HikariCP - Failed to validate connection org.postgresql.jdbc.PgConnection@6045772c (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
 25-04-05.14:44:41.410 [http-nio-8090-exec-6] WARN  PoolBase               - HikariCP - Failed to validate connection org.postgresql.jdbc.PgConnection@48801ee (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
 25-04-05.14:44:41.410 [http-nio-8090-exec-6] WARN  PoolBase               - HikariCP - Failed to validate connection org.postgresql.jdbc.PgConnection@43ddb1bf (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
@@ -639,6 +767,94 @@ org.postgresql.util.PSQLException: ERROR: relation "vector_store" does not exist
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
 	at java.base/java.lang.Thread.run(Thread.java:840)
+25-04-05.15:06:42.666 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown initiated...
+25-04-05.15:06:42.668 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown completed.
+25-04-05.15:06:45.244 [main            ] INFO  Application            - Starting Application using Java 17.0.14 with PID 19384 (D:\Work\Tools\GitHub\repository\ai-rag-knowledge\mh-dev-tech-app\target\classes started by 13168 in D:\Work\Tools\GitHub\repository\ai-rag-knowledge)
+25-04-05.15:06:45.245 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-04-05.15:06:45.832 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-05.15:06:45.834 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-05.15:06:45.859 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+25-04-05.15:06:46.452 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port 8090 (http)
+25-04-05.15:06:46.460 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8090"]
+25-04-05.15:06:46.462 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-04-05.15:06:46.462 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/10.1.19]
+25-04-05.15:06:46.539 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-04-05.15:06:46.539 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1254 ms
+25-04-05.15:06:46.946 [main            ] INFO  HikariDataSource       - HikariCP - Starting...
+25-04-05.15:06:47.359 [main            ] INFO  HikariPool             - HikariCP - Added connection org.postgresql.jdbc.PgConnection@554ebb13
+25-04-05.15:06:47.361 [main            ] INFO  HikariDataSource       - HikariCP - Start completed.
+25-04-05.15:06:51.243 [main            ] INFO  Version                - Redisson 3.44.0
+25-04-05.15:06:51.543 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 117.72.53.2/117.72.53.2:16379
+25-04-05.15:06:51.816 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 117.72.53.2/117.72.53.2:16379
+25-04-05.15:06:52.303 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8090"]
+25-04-05.15:06:52.311 [main            ] INFO  TomcatWebServer        - Tomcat started on port 8090 (http) with context path ''
+25-04-05.15:06:52.318 [main            ] INFO  Application            - Started Application in 7.649 seconds (process running for 8.386)
+25-04-05.15:08:14.033 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown initiated...
+25-04-05.15:08:14.034 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown completed.
+25-04-05.15:08:16.516 [main            ] INFO  Application            - Starting Application using Java 17.0.14 with PID 5824 (D:\Work\Tools\GitHub\repository\ai-rag-knowledge\mh-dev-tech-app\target\classes started by 13168 in D:\Work\Tools\GitHub\repository\ai-rag-knowledge)
+25-04-05.15:08:16.518 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-04-05.15:08:17.082 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-05.15:08:17.085 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-05.15:08:17.111 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+25-04-05.15:08:17.710 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port 8090 (http)
+25-04-05.15:08:17.719 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8090"]
+25-04-05.15:08:17.720 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-04-05.15:08:17.720 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/10.1.19]
+25-04-05.15:08:17.800 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-04-05.15:08:17.800 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1243 ms
+25-04-05.15:08:18.178 [main            ] INFO  HikariDataSource       - HikariCP - Starting...
+25-04-05.15:08:18.619 [main            ] INFO  HikariPool             - HikariCP - Added connection org.postgresql.jdbc.PgConnection@1483e1ea
+25-04-05.15:08:18.620 [main            ] INFO  HikariDataSource       - HikariCP - Start completed.
+25-04-05.15:08:19.261 [main            ] INFO  Version                - Redisson 3.44.0
+25-04-05.15:08:19.560 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for 117.72.53.2/117.72.53.2:16379
+25-04-05.15:08:19.826 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 117.72.53.2/117.72.53.2:16379
+25-04-05.15:08:20.319 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8090"]
+25-04-05.15:08:20.327 [main            ] INFO  TomcatWebServer        - Tomcat started on port 8090 (http) with context path ''
+25-04-05.15:08:20.334 [main            ] INFO  Application            - Started Application in 4.353 seconds (process running for 5.239)
+25-04-05.15:08:48.132 [http-nio-8090-exec-1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25-04-05.15:08:48.132 [http-nio-8090-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+25-04-05.15:08:48.133 [http-nio-8090-exec-1] INFO  DispatcherServlet      - Completed initialization in 1 ms
+25-04-05.15:09:28.690 [http-nio-8090-exec-3] INFO  RAGController          - 上传知识库开始Hesse
+25-04-05.15:09:29.701 [http-nio-8090-exec-3] INFO  RAGController          - 上传知识库完成Hesse
+25-04-05.15:10:00.992 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown initiated...
+25-04-05.15:10:00.994 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown completed.
+25-04-05.15:34:01.234 [main            ] INFO  Application            - Starting Application using Java 17.0.14 with PID 8820 (D:\Work\Tools\GitHub\repository\ai-rag-knowledge\mh-dev-tech-app\target\classes started by 13168 in D:\Work\Tools\GitHub\repository\ai-rag-knowledge)
+25-04-05.15:34:01.236 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-04-05.15:34:01.790 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-05.15:34:01.792 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-05.15:34:01.820 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+25-04-05.15:34:02.362 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port 8090 (http)
+25-04-05.15:34:02.370 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8090"]
+25-04-05.15:34:02.371 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-04-05.15:34:02.371 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/10.1.19]
+25-04-05.15:34:02.443 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-04-05.15:34:02.443 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1165 ms
+25-04-05.15:34:02.800 [main            ] INFO  HikariDataSource       - HikariCP - Starting...
+25-04-05.15:34:03.215 [main            ] INFO  HikariPool             - HikariCP - Added connection org.postgresql.jdbc.PgConnection@171198f2
+25-04-05.15:34:03.217 [main            ] INFO  HikariDataSource       - HikariCP - Start completed.
+25-04-05.18:24:46.303 [main            ] INFO  Application            - Starting Application using Java 17.0.14 with PID 19648 (D:\Work\Tools\GitHub\repository\ai-rag-knowledge\mh-dev-tech-app\target\classes started by 13168 in D:\Work\Tools\GitHub\repository\ai-rag-knowledge)
+25-04-05.18:24:46.305 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-04-05.18:24:47.046 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-05.18:24:47.049 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-05.18:24:47.076 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+25-04-05.18:24:47.737 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port 8090 (http)
+25-04-05.18:24:47.750 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8090"]
+25-04-05.18:24:47.752 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-04-05.18:24:47.752 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/10.1.19]
+25-04-05.18:24:47.825 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-04-05.18:24:47.826 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1329 ms
+25-04-05.18:24:48.219 [main            ] INFO  HikariDataSource       - HikariCP - Starting...
+25-04-05.18:24:48.667 [main            ] INFO  HikariPool             - HikariCP - Added connection org.postgresql.jdbc.PgConnection@2e3900dc
+25-04-05.18:24:48.669 [main            ] INFO  HikariDataSource       - HikariCP - Start completed.
+25-04-05.18:24:52.644 [main            ] INFO  Version                - Redisson 3.44.0
+25-04-05.18:24:52.946 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for 117.72.53.2/117.72.53.2:16379
+25-04-05.18:24:53.224 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 117.72.53.2/117.72.53.2:16379
+25-04-05.18:24:53.720 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8090"]
+25-04-05.18:24:53.728 [main            ] INFO  TomcatWebServer        - Tomcat started on port 8090 (http) with context path ''
+25-04-05.18:24:53.734 [main            ] INFO  Application            - Started Application in 7.923 seconds (process running for 8.466)
+25-04-05.18:25:01.032 [http-nio-8090-exec-1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25-04-05.18:25:01.033 [http-nio-8090-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+25-04-05.18:25:01.033 [http-nio-8090-exec-1] INFO  DispatcherServlet      - Completed initialization in 0 ms
 25-04-05.18:26:10.191 [http-nio-8090-exec-3] ERROR [dispatcherServlet]    - Servlet.service() for servlet [dispatcherServlet] threw exception
 org.springframework.web.reactive.function.client.WebClientResponseException$Unauthorized: 401 Unauthorized from POST https://pro-share-aws-api.zcyai.com/v1/chat/completions
 	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308)
@@ -919,6 +1135,31 @@ Original Stack Trace:
 		at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
 		at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
 		at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+25-04-05.18:40:19.974 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown initiated...
+25-04-05.18:40:19.975 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown completed.
+25-04-05.20:49:31.985 [main            ] INFO  Application            - Starting Application using Java 17.0.14 with PID 5512 (D:\Work\Tools\GitHub\repository\ai-rag-knowledge\mh-dev-tech-app\target\classes started by 13168 in D:\Work\Tools\GitHub\repository\ai-rag-knowledge)
+25-04-05.20:49:31.987 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-04-05.20:49:32.774 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-05.20:49:32.777 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-05.20:49:32.807 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+25-04-05.20:49:33.463 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port 8090 (http)
+25-04-05.20:49:33.473 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8090"]
+25-04-05.20:49:33.474 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-04-05.20:49:33.474 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/10.1.19]
+25-04-05.20:49:33.548 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-04-05.20:49:33.548 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1353 ms
+25-04-05.20:49:33.966 [main            ] INFO  HikariDataSource       - HikariCP - Starting...
+25-04-05.20:49:34.421 [main            ] INFO  HikariPool             - HikariCP - Added connection org.postgresql.jdbc.PgConnection@241d1052
+25-04-05.20:49:34.423 [main            ] INFO  HikariDataSource       - HikariCP - Start completed.
+25-04-05.20:49:38.877 [main            ] INFO  Version                - Redisson 3.44.0
+25-04-05.20:49:39.183 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for 117.72.53.2/117.72.53.2:16379
+25-04-05.20:49:39.477 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 117.72.53.2/117.72.53.2:16379
+25-04-05.20:49:39.974 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8090"]
+25-04-05.20:49:39.983 [main            ] INFO  TomcatWebServer        - Tomcat started on port 8090 (http) with context path ''
+25-04-05.20:49:39.989 [main            ] INFO  Application            - Started Application in 8.538 seconds (process running for 9.211)
+25-04-05.20:49:58.533 [http-nio-8090-exec-1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25-04-05.20:49:58.534 [http-nio-8090-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+25-04-05.20:49:58.535 [http-nio-8090-exec-1] INFO  DispatcherServlet      - Completed initialization in 1 ms
 25-04-05.20:50:48.575 [http-nio-8090-exec-4] ERROR [dispatcherServlet]    - Servlet.service() for servlet [dispatcherServlet] threw exception
 java.nio.channels.ClosedChannelException: null
 	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:195)
@@ -953,6 +1194,31 @@ java.nio.channels.ClosedChannelException: null
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:840)
+25-04-05.20:51:30.088 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown initiated...
+25-04-05.20:51:30.090 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown completed.
+25-04-05.20:56:10.533 [main            ] INFO  Application            - Starting Application using Java 17.0.14 with PID 7924 (D:\Work\Tools\GitHub\repository\ai-rag-knowledge\mh-dev-tech-app\target\classes started by 13168 in D:\Work\Tools\GitHub\repository\ai-rag-knowledge)
+25-04-05.20:56:10.536 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-04-05.20:56:11.183 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-05.20:56:11.183 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-05.20:56:11.211 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+25-04-05.20:56:11.725 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port 8090 (http)
+25-04-05.20:56:11.732 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8090"]
+25-04-05.20:56:11.733 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-04-05.20:56:11.733 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/10.1.19]
+25-04-05.20:56:11.798 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-04-05.20:56:11.798 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1092 ms
+25-04-05.20:56:12.113 [main            ] INFO  HikariDataSource       - HikariCP - Starting...
+25-04-05.20:56:12.559 [main            ] INFO  HikariPool             - HikariCP - Added connection org.postgresql.jdbc.PgConnection@43445fc6
+25-04-05.20:56:12.561 [main            ] INFO  HikariDataSource       - HikariCP - Start completed.
+25-04-05.20:56:16.087 [main            ] INFO  Version                - Redisson 3.44.0
+25-04-05.20:56:16.350 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for 117.72.53.2/117.72.53.2:16379
+25-04-05.20:56:16.626 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 117.72.53.2/117.72.53.2:16379
+25-04-05.20:56:17.047 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8090"]
+25-04-05.20:56:17.055 [main            ] INFO  TomcatWebServer        - Tomcat started on port 8090 (http) with context path ''
+25-04-05.20:56:17.061 [main            ] INFO  Application            - Started Application in 6.98 seconds (process running for 7.516)
+25-04-05.20:56:24.167 [http-nio-8090-exec-1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25-04-05.20:56:24.167 [http-nio-8090-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+25-04-05.20:56:24.168 [http-nio-8090-exec-1] INFO  DispatcherServlet      - Completed initialization in 1 ms
 25-04-05.20:57:10.967 [http-nio-8090-exec-3] ERROR [dispatcherServlet]    - Servlet.service() for servlet [dispatcherServlet] threw exception
 java.nio.channels.ClosedChannelException: null
 	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:195)
@@ -1021,6 +1287,53 @@ java.nio.channels.ClosedChannelException: null
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:840)
+25-04-05.20:58:18.313 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown initiated...
+25-04-05.20:58:18.315 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown completed.
+25-04-05.20:58:23.578 [main            ] INFO  Application            - Starting Application using Java 17.0.14 with PID 23620 (D:\Work\Tools\GitHub\repository\ai-rag-knowledge\mh-dev-tech-app\target\classes started by 13168 in D:\Work\Tools\GitHub\repository\ai-rag-knowledge)
+25-04-05.20:58:23.579 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-04-05.20:58:24.319 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-05.20:58:24.322 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-05.20:58:24.347 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+25-04-05.20:58:24.940 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port 8090 (http)
+25-04-05.20:58:24.949 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8090"]
+25-04-05.20:58:24.950 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-04-05.20:58:24.950 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/10.1.19]
+25-04-05.20:58:25.027 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-04-05.20:58:25.028 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1266 ms
+25-04-05.20:58:25.396 [main            ] INFO  HikariDataSource       - HikariCP - Starting...
+25-04-05.20:58:25.805 [main            ] INFO  HikariPool             - HikariCP - Added connection org.postgresql.jdbc.PgConnection@26f480c6
+25-04-05.20:58:25.807 [main            ] INFO  HikariDataSource       - HikariCP - Start completed.
+25-04-05.20:58:26.480 [main            ] INFO  Version                - Redisson 3.44.0
+25-04-05.20:58:26.759 [redisson-netty-1-6] INFO  ConnectionsHolder      - 1 connections initialized for 117.72.53.2/117.72.53.2:16379
+25-04-05.20:58:27.040 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 117.72.53.2/117.72.53.2:16379
+25-04-05.20:58:27.491 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8090"]
+25-04-05.20:58:27.501 [main            ] INFO  TomcatWebServer        - Tomcat started on port 8090 (http) with context path ''
+25-04-05.20:58:27.507 [main            ] INFO  Application            - Started Application in 4.431 seconds (process running for 5.307)
+25-04-05.20:58:59.959 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown initiated...
+25-04-05.20:58:59.960 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown completed.
+25-04-05.20:59:02.478 [main            ] INFO  Application            - Starting Application using Java 17.0.14 with PID 22608 (D:\Work\Tools\GitHub\repository\ai-rag-knowledge\mh-dev-tech-app\target\classes started by 13168 in D:\Work\Tools\GitHub\repository\ai-rag-knowledge)
+25-04-05.20:59:02.480 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-04-05.20:59:03.140 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-05.20:59:03.142 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-05.20:59:03.165 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+25-04-05.20:59:03.708 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port 8090 (http)
+25-04-05.20:59:03.716 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8090"]
+25-04-05.20:59:03.718 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-04-05.20:59:03.718 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/10.1.19]
+25-04-05.20:59:03.793 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-04-05.20:59:03.793 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1146 ms
+25-04-05.20:59:04.135 [main            ] INFO  HikariDataSource       - HikariCP - Starting...
+25-04-05.20:59:04.510 [main            ] INFO  HikariPool             - HikariCP - Added connection org.postgresql.jdbc.PgConnection@1e9d7366
+25-04-05.20:59:04.511 [main            ] INFO  HikariDataSource       - HikariCP - Start completed.
+25-04-05.20:59:05.177 [main            ] INFO  Version                - Redisson 3.44.0
+25-04-05.20:59:05.451 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 117.72.53.2/117.72.53.2:16379
+25-04-05.20:59:05.725 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 117.72.53.2/117.72.53.2:16379
+25-04-05.20:59:06.176 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8090"]
+25-04-05.20:59:06.184 [main            ] INFO  TomcatWebServer        - Tomcat started on port 8090 (http) with context path ''
+25-04-05.20:59:06.191 [main            ] INFO  Application            - Started Application in 4.245 seconds (process running for 4.95)
+25-04-05.20:59:14.388 [http-nio-8090-exec-3] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25-04-05.20:59:14.388 [http-nio-8090-exec-3] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+25-04-05.20:59:14.389 [http-nio-8090-exec-3] INFO  DispatcherServlet      - Completed initialization in 1 ms
 25-04-05.20:59:56.611 [http-nio-8090-exec-7] ERROR [dispatcherServlet]    - Servlet.service() for servlet [dispatcherServlet] threw exception
 java.nio.channels.ClosedChannelException: null
 	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:195)
@@ -1125,4 +1438,31 @@ java.net.SocketException: Connection reset
 	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:939)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:939)
+25-04-05.21:01:42.563 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown initiated...
+25-04-05.21:01:42.565 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown completed.
+25-04-05.21:02:35.490 [main            ] INFO  Application            - Starting Application using Java 17.0.14 with PID 10424 (D:\Work\Tools\GitHub\repository\ai-rag-knowledge\mh-dev-tech-app\target\classes started by 13168 in D:\Work\Tools\GitHub\repository\ai-rag-knowledge)
+25-04-05.21:02:35.492 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-04-05.21:02:36.173 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-05.21:02:36.175 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-05.21:02:36.198 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+25-04-05.21:02:36.741 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port 8090 (http)
+25-04-05.21:02:36.749 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8090"]
+25-04-05.21:02:36.751 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-04-05.21:02:36.751 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/10.1.19]
+25-04-05.21:02:36.822 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-04-05.21:02:36.823 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1161 ms
+25-04-05.21:02:37.175 [main            ] INFO  HikariDataSource       - HikariCP - Starting...
+25-04-05.21:02:37.582 [main            ] INFO  HikariPool             - HikariCP - Added connection org.postgresql.jdbc.PgConnection@497921d0
+25-04-05.21:02:37.584 [main            ] INFO  HikariDataSource       - HikariCP - Start completed.
+25-04-05.21:02:38.272 [main            ] INFO  Version                - Redisson 3.44.0
+25-04-05.21:02:38.549 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for 117.72.53.2/117.72.53.2:16379
+25-04-05.21:02:38.837 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 117.72.53.2/117.72.53.2:16379
+25-04-05.21:02:39.287 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8090"]
+25-04-05.21:02:39.295 [main            ] INFO  TomcatWebServer        - Tomcat started on port 8090 (http) with context path ''
+25-04-05.21:02:39.302 [main            ] INFO  Application            - Started Application in 4.323 seconds (process running for 4.975)
+25-04-05.21:02:55.204 [http-nio-8090-exec-1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25-04-05.21:02:55.204 [http-nio-8090-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+25-04-05.21:02:55.205 [http-nio-8090-exec-1] INFO  DispatcherServlet      - Completed initialization in 1 ms
 25-04-05.21:03:26.309 [http-nio-8090-exec-2] WARN  DefaultHandlerExceptionResolver - Resolved [org.springframework.web.context.request.async.AsyncRequestTimeoutException]
+25-04-05.21:05:01.104 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown initiated...
+25-04-05.21:05:01.106 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown completed.
