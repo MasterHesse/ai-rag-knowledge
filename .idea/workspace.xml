@@ -5,39 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ee7c77e-6806-42b4-96e6-8950da0fd71a" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/tag/v1.0/api/curl.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/tag/v1.0/api/curl.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/tag/v1.0/docker-compose-app-v1.0.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/tag/v1.0/docker-compose-environment-aliyun.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/tag/v1.0/docker-compose-environment.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/tag/v1.0/maven/settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/tag/v1.0/nginx/conf/conf.d/localhost.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/tag/v1.0/nginx/conf/nginx.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/tag/v1.0/nginx/html/css/github.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/tag/v1.0/nginx/html/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/tag/v1.0/nginx/html/git.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/tag/v1.0/nginx/html/images/ai-rag-knowledge-6-01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/tag/v1.0/nginx/html/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/tag/v1.0/nginx/html/js/axios.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/tag/v1.0/nginx/html/js/highlight.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/tag/v1.0/nginx/html/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/tag/v1.0/nginx/html/js/marked.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/tag/v1.0/nginx/html/js/purify.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/tag/v1.0/nginx/html/upload.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/tag/v1.0/pgvector/sql/init.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/tag/v1.0/redis/redis.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mh-dev-tech-app/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mh-dev-tech-app/build.ps1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/log/log_error.log" beforeDir="false" afterPath="$PROJECT_DIR$/data/log/log_error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/log/log_info.log" beforeDir="false" afterPath="$PROJECT_DIR$/data/log/log_info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/dev-ops/nginx/html/4-Simple-UI.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/dev-ops/nginx/html/6-Chat-UI.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/dev-ops/nginx/html/6-UploadFile-UI.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/dev-ops/nginx/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/dev-ops/nginx/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mh-dev-tech-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mh-dev-tech-app/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mh-dev-tech-app/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mh-dev-tech-app/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mh-dev-tech-app/src/main/resources/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mh-dev-tech-app/src/main/resources/application-prod.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +69,7 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;Spring Boot.Application.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;9-tag-v1.0&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/Work/Tools/GitHub/repository/ai-rag-knowledge/mh-dev-tech-app&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -254,6 +222,8 @@
       <workItem from="1744010662468" duration="605000" />
       <workItem from="1744011482066" duration="4010000" />
       <workItem from="1744090321544" duration="1933000" />
+      <workItem from="1744094432740" duration="25000" />
+      <workItem from="1744094658453" duration="866000" />
     </task>
     <servers />
   </component>
